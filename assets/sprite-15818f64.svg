@@ -31,6 +31,9 @@
 <path fill="#F6F5EF" style="fill: var(--color1, #F6F5EF)" d="M50 0l22 16-22 16v-13.229h-50v-5.543h50v-13.229z"></path>
 </symbol>
    <!--rent-block-->
+  <symbol id="icon-close-black" viewBox="0 0 32 32">
+    <path stroke-linejoin="round" stroke-linecap="round" stroke-width="2.08" d="M24 8 8 24M8 8l16 16"/>
+  </symbol>
    <symbol id="rent-block-arrow" viewBox="0 0 64 32">
       <path d="M44.444.604 64 16 44.444 31.396V18.667H0v-5.333h44.444V.605z"/>
     </symbol>
