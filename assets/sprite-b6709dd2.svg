@@ -32,6 +32,10 @@
     <path d="M23.556 12.444l4.889 3.556-4.889 3.556v-2.94h-11.111v-1.232h11.111v-2.94z"></path>
     <path stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.8889" d="M16 0.444h8.889c8.591 0 15.556 6.964 15.556 15.556s-6.964 15.556-15.556 15.556h-8.889c-8.591 0-15.556-6.964-15.556-15.556s6.964-15.556 15.556-15.556z"></path>
    </symbol>
+   <!--rent-block-->
+   <symbol id="rent-block-arrow" viewBox="0 0 64 32">
+      <path d="M44.444.604 64 16 44.444 31.396V18.667H0v-5.333h44.444V.605z"/>
+    </symbol>
 </defs>
 </svg>
 
