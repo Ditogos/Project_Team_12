@@ -24,14 +24,12 @@
     </symbol>
 <!--  footer-branch -->
 <!-- yachtsblock6 -->
-    <symbol id="icon-left" viewBox="0 0 41 32">
-     <path d="M17.333 12.444l-4.889 3.556 4.889 3.556v-2.94h11.111v-1.232h-11.111v-2.94z"></path>
-     <path stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.8889" d="M16 0.444h8.889c8.591 0 15.556 6.964 15.556 15.556s-6.964 15.556-15.556 15.556h-8.889c-8.591 0-15.556-6.964-15.556-15.556s6.964-15.556 15.556-15.556z"></path>
-   </symbol>
-   <symbol id="icon-rigth" viewBox="0 0 41 32">
-    <path d="M23.556 12.444l4.889 3.556-4.889 3.556v-2.94h-11.111v-1.232h11.111v-2.94z"></path>
-    <path stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.8889" d="M16 0.444h8.889c8.591 0 15.556 6.964 15.556 15.556s-6.964 15.556-15.556 15.556h-8.889c-8.591 0-15.556-6.964-15.556-15.556s6.964-15.556 15.556-15.556z"></path>
-   </symbol>
+  <symbol id="icon-arrow-left" viewBox="0 0 72 32">
+<path fill="#F6F5EF" style="fill: var(--color1, #F6F5EF)" d="M22 0l-22 16 22 16v-13.229h50v-5.543h-50v-13.229z"></path>
+</symbol>
+  <symbol id="icon-arrow-right" viewBox="0 0 72 32">
+<path fill="#F6F5EF" style="fill: var(--color1, #F6F5EF)" d="M50 0l22 16-22 16v-13.229h-50v-5.543h50v-13.229z"></path>
+</symbol>
    <!--rent-block-->
    <symbol id="rent-block-arrow" viewBox="0 0 64 32">
       <path d="M44.444.604 64 16 44.444 31.396V18.667H0v-5.333h44.444V.605z"/>
