@@ -954,7 +954,7 @@
       </picture>
     </div>
     <div class="div-two">
-      <form class="modal-form">
+      <form class="modal-form" autocomplete="off">
         <label for="user-name" class="modal-field-name">
           <span class="rent-label-span">Full Name</span>
           <input
@@ -974,8 +974,7 @@
             id="user-email"
             type="email"
             name="email"
-            pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
-            title=""
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
           />
         </label>
         <label for="user-phone" class="modal-field-name">
@@ -991,7 +990,7 @@
         </label>
         <label class="modal-field-name">
           <span class="rent-label-span">Comment</span>
-          <textarea class="comment-input" name="comment"></textarea>
+          <textarea required class="comment-input" name="comment" pattern="[a-z]{1,30}(,[a-z]{1,30})*"></textarea>
         </label>
       </form>
       <button class="open-modal-btn" type="submit" disabled>
