@@ -1,6 +1,19 @@
 /* Hero.Developer:Prenrelo(Jarek) */
 .hero-section {
     margin-bottom: 80px;
+
+}
+@media only screen and (min-width: 1280px) {
+   .hero-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    
+  }
+   .hero-tittle-text {
+    padding-top: 68px;
+    max-width: 554px;
+   }
 }
 .hero-tittle {
     max-width: 332px;
@@ -122,10 +135,18 @@ color: var(--white-title-color);
 }
 .hero-rectangle {
     position: relative;
-    background-image: url(./img/heroimg/Mask\ group335.png);
+    background-image:
+    url(../img/heroimg/Mask\ group335.png);
     background-repeat: no-repeat;
     background-size: cover;
-    
+    max-width: 335px;
+    border-radius: 24px;
+}
+@media only screen and (min-width: 768px) {
+    .hero-rectangle {
+        max-width: 426px;
+        padding-bottom: 79px;
+  }
 }
 .hero-list-img {
     display: flex;
@@ -140,19 +161,25 @@ color: var(--white-title-color);
     }
 }
 .hero-img-man1 {
+    position: relative;
+    left: -8px;
+    top: 24px;
+    z-index: 4;
  
 }
 
 .hero-img-woman {
-    left: -120px;
-        top: 25px;
-        z-index: 2;
+    position: relative;
+    left: -18px;
+    top: 24px;
+    z-index: 3;
 }
 
 .hero-img-man2 {
-top: 50px;
-    left: 55px;
-    z-index: 5;
+    position: relative;
+    top: 24px;
+    left: -26px;
+    z-index: 2;
 }
 .hero-clients {
     color:var(--main-darkblue-color);
@@ -164,6 +191,7 @@ top: 50px;
         text-transform: uppercase;
         margin-left: 24px;
         margin-bottom: 52px;
+        margin-top: 40px;
 }
 @media only screen and (min-width: 768px) {
 .hero-clients  {
@@ -174,21 +202,27 @@ top: 50px;
 display: flex;
 align-items: center;
 gap: 14px;
-margin-left: 24px;
-margin-right: 24px;
+padding-left: 18px;
+padding-right: 18px;
 padding-bottom: 48px;
 }
+@media only screen and (min-width: 768px) {
+    .hero-container-price{
+        padding-bottom: 0;
+  }
+}
+
 .hero-price {
     color: var(--main-darkblue-color);
         font-family: DM Sans, sans-serif;
         font-size: 48px;
-        line-height: 52.8px;
+        line-height: 1.1;
         letter-spacing: -2.16px;
 }
 @media only screen and (min-width: 768px) {
 .hero-price   {
         font-size: 60px;
-        line-height: 66px;
+        line-height: 1.1;
         letter-spacing: -2.7px; 
   }
 }
@@ -196,12 +230,12 @@ padding-bottom: 48px;
     color:var(--main-darkblue-color);
         font-family: DM Sans, sans-serif;
         font-size: 14px;
-        line-height: 19.6px;
+        line-height: 1.4;
         letter-spacing: -0.63px;
 }
 @media only screen and (min-width: 768px) {
 .hero-dream   {
-    max-width: 208px;
+    width: 208px;
         font-size: 18px;
         line-height: 19.8px;
         letter-spacing: -0.81px;
@@ -213,6 +247,13 @@ top: 35px;
 right: -12px;
 
 }
+@media only screen and (min-width: 768px) {
+    .hero-img-ceo {
+    width: 233px;
+    height: 233px;
+    right: -144px;
+  }
+}
 .hero-img-yacht {
 margin: 0 auto;
 margin-bottom: 14px;
@@ -220,5 +261,7 @@ margin-bottom: 14px;
 @media only screen and (min-width: 768px) {
 .hero-img-yacht  {
     margin-bottom: 22px;
+    width: 378px;
+    height: 221px;
   }
 }
