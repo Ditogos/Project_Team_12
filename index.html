@@ -16,8 +16,8 @@
     />
     <title>Vanilla App Template</title>
     
-    <script type="module" crossorigin src="/Project_Team_12/assets/index-c7d2c8f4.js"></script>
-    <link rel="stylesheet" href="/Project_Team_12/assets/index-1f62a25e.css">
+    <script type="module" crossorigin src="/Project_Team_12/assets/index-be7d2ec8.js"></script>
+    <link rel="stylesheet" href="/Project_Team_12/assets/index-5d4e57a1.css">
   </head>
   <body>
     <header>
@@ -958,7 +958,6 @@
       <!--Rent Block.Developer:vickyUA(Вікторія Поліщук)-->
       <section class="rent-block" id="rental">
   <div class="container rent-container">
-    <div class="rent-eclipse"></div>
     <div class="div-one">
       <h2 class="rent-block-title">Rent a yacht now</h2>
       <picture>
@@ -988,7 +987,8 @@
             class="modal-field-input"
             id="user-name"
             name="username"
-            pattern="^[a-zA-Z]+$"
+            pattern="^(\w\w+)\s(\w+)$"
+            title="Username should only contain latin characters, Name and Surname, e.g. Mark Twain"
           />
         </label>
         <label for="user-email" class="modal-field-name">
@@ -1000,6 +1000,7 @@
             type="email"
             name="email"
             pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+            title="Email must contain @, e.g. goit2023@mail.com"
           />
         </label>
         <label for="user-phone" class="modal-field-name">
@@ -1011,6 +1012,7 @@
             type="tel"
             name="phone"
             pattern="[0-9]{6,15}"
+            title="Phone number should only contain numbers, e.g. 009121112237"
           />
         </label>
         <label class="modal-field-name">
@@ -1032,7 +1034,7 @@
 <div class="modal-bgd thank-modal">
   <div class="modal-form-container">
     <button class="close-btn">
-      <svg class="close-button" width="20" height="20">
+      <svg class="close-button">
         <use href="/Project_Team_12/assets/sprite-120a9ff4.svg#icon-close-black"></use>
       </svg>
     </button>
@@ -1050,11 +1052,9 @@
         src="/Project_Team_12/assets/rent-yacht-mob-2-1x-4b255aca.png"
         srcset="/Project_Team_12/assets/rent-yacht-mob-2-1x-4b255aca.png 1x, /Project_Team_12/assets/rent-yacht-mob-2-2x-81a8db0b.png 2x"
         alt="modern yacht"
-        width="287px"
-        width="287px"
       />
     </picture>
-    <h4 class="modal-title">Thank you!</h4>
+    <h4 class="modal-title">Thank you</h4>
     <p class="modal-text">
       Thank you for choosing Yacht Adventures, your booking details have been
       received and our team will be in touch shortly to confirm your reservation
