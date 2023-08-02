@@ -1301,6 +1301,48 @@
 
     </footer>
 
+    <script>
+      const ACTIVE_CLASS_NAME = 'modal-active';
+      const successModal = document.querySelector('.thank-modal');
+      const form = document.querySelector('.modal-form');
+      const openFormModalBtn = document.querySelector('.open-modal-btn');
+      const closeBtns = document.querySelectorAll('.close-btn');
+      openFormModalBtn.setAttribute('disabled', true);
+      const emailInput = document.querySelector('.modal-field-input');
+      emailInput.addEventListener('input', changeInput);
+      function changeInput() {
+        if (emailInput.value.length !== 0) {
+          openFormModalBtn.removeAttribute('disabled');
+        }
+      }
+      const closeFormModal = () => {
+        successModal.classList.remove(ACTIVE_CLASS_NAME);
+      };
+      closeBtns.forEach(btn => {
+        btn.addEventListener('click', e => {
+          e.stopPropagation();
+          closeFormModal();
+        });
+      });
+      function clearFormFields() {
+        const modalFields = form.querySelectorAll('input');
+        modalFields.forEach(field => {
+          field.value = '';
+        });
+      }
+      form.addEventListener('submit', e => {
+        e.preventDefault();
+        successModal.classList.add(ACTIVE_CLASS_NAME);
+        clearFormFields();
+      });
+    </script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./src/js/mobile_menu.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     
   </body>
 </html>
