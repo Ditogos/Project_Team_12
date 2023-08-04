@@ -1,7 +1,6 @@
-@media screen and (min-width: 375px){
+
 .reviews-block{
     margin-bottom: 80px;
-}
 }
 
 .reviews-subtitle {
@@ -186,7 +185,7 @@
     }
 
     .swiper{
-        width: 355px;
+        width: 351px;
     }
 
     .swiper .review-swiper-wrapper {
