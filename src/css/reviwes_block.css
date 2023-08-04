@@ -59,11 +59,6 @@
     0px 0px 4px 0px rgba(46, 68, 87, 0) inset;
 }
 
-@media screen and (min-width: 375px){
-    .swiper-scrollbar-horizontal {
-        display: none;
-    }
-}
 
 /* .swiper-blocck {
     padding: 0;
@@ -298,9 +293,7 @@
         letter-spacing: -0.32px;
     }
 
-    .swiper-scrollbar-horizontal{
-        display: none;
-    }
+    
 
     /* .reviews-image {
         width: 56px;
