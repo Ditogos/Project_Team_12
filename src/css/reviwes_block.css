@@ -59,16 +59,10 @@
     0px 0px 4px 0px rgba(46, 68, 87, 0) inset;
 }
 
-.swiper-button-next{
-    display: none;
-}
-
-.swiper-button-prev{
-    display: none;
-}
-
-.swiper-scrollbar{
-    display: none;
+@media screen and (min-width: 375px){
+    .swiper-scrollbar-horizontal {
+        display: none;
+    }
 }
 
 /* .swiper-blocck {
@@ -304,10 +298,9 @@
         letter-spacing: -0.32px;
     }
 
-    .swiper-horizontal>.swiper-pagination-bullets,
-    .swiper-pagination-bullets.swiper-pagination-horizontal{
-            
-        }
+    .swiper-scrollbar-horizontal{
+        display: none;
+    }
 
     /* .reviews-image {
         width: 56px;
@@ -420,6 +413,7 @@
             font-size: 16px;
             letter-spacing: -0.32px;
         }
+
     /* .swiper{
     width: 1216px;
     margin-bottom: 164px;
